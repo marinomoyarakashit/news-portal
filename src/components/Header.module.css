@@ -1,0 +1,79 @@
+.header {
+  background-color: #2c3e50; /* Темно-синій, як у футері */
+  padding: 15px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: 800;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.logo span {
+  color: #3498db; /* Блакитний акцент */
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.navLink {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.navLink:hover {
+  color: #3498db;
+}
+
+.count {
+  background: #3498db;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  margin-left: 2px;
+}
+
+.themeToggle {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #3498db;
+  color: #3498db;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.themeToggle:hover {
+  background: #3498db;
+  color: white;
+}
